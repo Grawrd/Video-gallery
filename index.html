@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fancybox HTML5 Video Gallery</title>
+  
+  <link rel='stylesheet' href='./fancybox.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h4>02. Video Gallery</h4>
+<ul>
+  <li>Autoplay HTML5 video when Fancybox opens</li>
+  <li>Advance Fancybox to next video in gallery when video is finished playing</li>
+  <li>Pause video if user navigates to next video in gallery</li>
+  <li>Autplay next video if user navigates through the gallery</li>
+</ul>
+
+<ul class="video-links">
+  <li><a class="fancybox-gallery" rel="video-gallery" href="#video01">Video 01</a></li>
+  <li><a class="fancybox-gallery" rel="video-gallery" href="#video02">Video 02</a></li>
+  <li><a class="fancybox-gallery" rel="video-gallery" href="#video03">Video 03</a></li>
+</ul>
+
+<div id="video01" class="fancybox-video">
+  <video controls width="100%" height="auto">
+    <source src="http://skolniakce.info/sumava.mp4?token=fc1b0717c&category=pres&action=view" type="video/mp4">   
+  </video>
+</div>
+
+<div id="video02" class="fancybox-video">
+  <video controls width="100%" height="auto">
+    <source src="http://skolniakce.info/sumava.mp4?token=fc1b0717c&category=pres&action=view" type="video/mp4">    
+  </video>
+</div>
+
+<div id="video03" class="fancybox-video">
+  <video controls width="100%" height="auto">
+    <source src="http://skolniakce.info/sumava.mp4?token=fc1b0717c&category=pres&action=view" type="video/mp4">   
+  </video>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-latest.min.js'></script>
+<script src='https://ericjacksonwood.ca/SHARE/_codepen/fancybox-video-gallery/jquery.fancybox.pack.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
